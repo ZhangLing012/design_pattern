@@ -6,7 +6,7 @@ package com.geely.design.pattern.creational.singleton;
 public enum EnumInstance {
     INSTANCE {
         protected void printTest() {
-            System.out.println("Geely Print Test");
+            System.out.println("Geely Print CommandTest");
         }
     };
     private Object data;

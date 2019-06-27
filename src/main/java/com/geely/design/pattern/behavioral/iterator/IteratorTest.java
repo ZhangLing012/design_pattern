@@ -3,7 +3,7 @@ package com.geely.design.pattern.behavioral.iterator;
 /**
  * Created by geely.
  */
-public class Test {
+public class IteratorTest {
 
 
     public static void main(String[] args) {
