@@ -3,7 +3,7 @@ package com.geely.design.pattern.behavioral.templatemethod;
 /**
  * Created by geely
  */
-public class Test {
+public class TemplateTest {
     public static void main(String[] args) {
 //        System.out.println("后端设计模式课程start---");
 //        ACourse designPatternCourse = new DesignPatternCourse();
