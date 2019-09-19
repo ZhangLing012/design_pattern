@@ -2,6 +2,7 @@ package com.geely.design.pattern.structural.adapter.objectadapter;
 
 /**
  * Created by geely
+ * 组合复用原则 委托机制
  */
 public class Test {
     public static void main(String[] args) {

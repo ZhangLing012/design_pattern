@@ -1,7 +1,8 @@
 package com.geely.design.pattern.structural.adapter.objectadapter;
 
 /**
- * Created by geely
+ * 不是继承无法调用被适配者方法
+ * 所以用组合
  */
 public class Adapter implements Target {
     private Adaptee adaptee = new Adaptee();

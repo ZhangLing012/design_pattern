@@ -1,7 +1,7 @@
 package com.geely.design.pattern.structural.adapter.classadapter;
 
 /**
- * Created by geely
+ * 继承
  */
 public class Test {
     public static void main(String[] args) {

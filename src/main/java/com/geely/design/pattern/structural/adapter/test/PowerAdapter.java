@@ -1,7 +1,10 @@
-package com.geely.design.pattern.structural.adapter;
+package com.geely.design.pattern.structural.adapter.test;
+
+import com.geely.design.pattern.structural.adapter.test.AC220;
+import com.geely.design.pattern.structural.adapter.test.DC5;
 
 /**
- * Created by geely
+ * 实现5V直流电
  */
 public class PowerAdapter implements DC5 {
     private AC220 ac220 = new AC220();

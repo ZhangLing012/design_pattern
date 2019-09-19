@@ -1,7 +1,7 @@
 package com.geely.design.pattern.structural.adapter.objectadapter;
 
 /**
- * Created by geely
+ * 被适配者
  */
 public class Adaptee {
     public void adapteeRequest() {

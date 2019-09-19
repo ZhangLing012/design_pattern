@@ -1,7 +1,7 @@
-package com.geely.design.pattern.structural.adapter;
+package com.geely.design.pattern.structural.adapter.test;
 
 /**
- * Created by geely
+ * Adaptee 被适配者
  */
 public class AC220 {
     public int outputAC220V() {
