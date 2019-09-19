@@ -1,4 +1,4 @@
-package com.geely.design.pattern.creational.factorymethod;
+package com.geely.design.pattern.creational.factory.factorymethod;
 
 /**
  * Created by geely

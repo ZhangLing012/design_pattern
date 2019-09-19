@@ -1,4 +1,4 @@
-package com.geely.design.pattern.creational.abstractfactory;
+package com.geely.design.pattern.creational.factory.abstractfactory;
 
 /**
  * Created by geely
