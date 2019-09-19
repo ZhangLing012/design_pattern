@@ -1,11 +1,12 @@
 package com.geely.design.pattern.behavioral.templatemethod;
 
 /**
- * Created by geely
+ * 前端课程
+ * vue  react angular 可能写手记 可能不写
  */
 public class FECourse extends ACourse {
     private boolean needWriteArticleFlag = false;
-
+    // 开放给应用层test决定
     public FECourse(boolean needWriteArticleFlag) {
         this.needWriteArticleFlag = needWriteArticleFlag;
     }
