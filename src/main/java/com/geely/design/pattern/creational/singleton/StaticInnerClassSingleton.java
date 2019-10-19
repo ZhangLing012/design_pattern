@@ -1,7 +1,7 @@
 package com.geely.design.pattern.creational.singleton;
 
 /**
- * Created by geely
+ * @author Darling
  */
 public class StaticInnerClassSingleton {
     private StaticInnerClassSingleton() {

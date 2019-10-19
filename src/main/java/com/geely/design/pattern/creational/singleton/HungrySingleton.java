@@ -3,7 +3,7 @@ package com.geely.design.pattern.creational.singleton;
 import java.io.Serializable;
 
 /**
- * Created by geely
+ * @author Darling
  */
 public class HungrySingleton implements Serializable, Cloneable {
 
