@@ -25,9 +25,15 @@ public class StrategyTest {
     //
     //     promotionActivity.executePromotionStrategy();
     // }
+//     public static void main(String[] args) {
+//       String  promotionKey = "LIJIAN";
+//       PromotionActivity promotionActivity = new PromotionActivity(PromotionStrategyFactory.getPromotionStrategy(promotionKey));
+// promotionActivity.executePromotionStrategy();
+//     }
+
     public static void main(String[] args) {
-      String  promotionKey = "LIJIAN";
-      PromotionActivity promotionActivity = new PromotionActivity(PromotionStrategyFactory.getPromotionStrategy(promotionKey));
-promotionActivity.executePromotionStrategy();
+        new PromotionActivity(()->{
+            System.out.println("lambda简化策略模式");
+        }).executePromotionStrategy();
     }
 }
