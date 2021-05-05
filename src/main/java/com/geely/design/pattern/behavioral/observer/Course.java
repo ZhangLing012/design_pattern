@@ -1,5 +1,7 @@
 package com.geely.design.pattern.behavioral.observer;
 
+import lombok.Data;
+
 import java.util.Observable;
 
 public class Course extends Observable {
